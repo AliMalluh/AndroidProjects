@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">متعدد اللغات</string>
+    <string name="name">مرحبا</string>
+    <string name="toast">هذه رسالة ترحيبية</string>
+</resources>
