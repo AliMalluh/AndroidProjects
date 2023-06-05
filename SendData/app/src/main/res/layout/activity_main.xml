@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_horizontal|center_vertical"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="BMI CALCULATOR"
+        android:textColor="#6750A3"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_horizontal|center_vertical"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Weight"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_horizontal|center_vertical"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Height"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="Calculate" />
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="clip_horizontal|center_vertical"
+        android:layout_marginTop="30dp">
+
+    </FrameLayout>
+</LinearLayout>
