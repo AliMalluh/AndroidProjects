@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "393212382556",
+    "project_id": "quizgame-f110f",
+    "storage_bucket": "quizgame-f110f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393212382556:android:cef47248fe593ddc580599",
+        "android_client_info": {
+          "package_name": "com.example.quizgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393212382556-gknuuppms5m0m89lesd4f4uq0u02kb1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8N6A4fCEc910787knqem7ZgSn9OHNCjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393212382556-gknuuppms5m0m89lesd4f4uq0u02kb1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
